@@ -1,0 +1,5 @@
+config:
+  target: "http://localhost:3000"  # URL do sistema que será testado
+  phases:
+    - duration: 60  # Duração da fase de teste em segundos
+      arrivalRate: 10  # Taxa de chegada de requisições por segundo
